@@ -1,0 +1,340 @@
+/*
+Theme Name: Isac kaffe tema
+
+Author: Isac Ljung
+
+Description: Test eget tema
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tema
+*/
+@import url('https://fonts.googleapis.com/css?family=Catamaran:500,700,800');
+
+
+/*******************/
+/***** General *****/
+/*******************/
+.content {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+div:focus {
+    outline:none;
+}
+
+
+
+
+/******************/
+/*** Typography ***/
+/******************/
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+p, a {
+    font-size: 18px;
+    color:#39393a;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color:#39393a;
+}
+
+h4 {
+    font-size: 20px;
+    color:#39393a;
+}
+
+.btn-custom, .btn-custom:focus, .btn-custom:active {
+    padding:10px 16px 8px 16px;
+    border-radius: 100px;
+	background-color: #1abc9c;
+    font-size: 16px;
+    color:white;
+    transition:.3s;
+
+}
+
+.btn-custom:hover {
+	background-color: #18aa8d;
+    color:white;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.3);
+    top:-1px;
+    position: relative;
+}
+
+
+
+
+/******************/
+/***** Header *****/
+/******************/
+.header {
+    background-color: rgba(26, 188, 156, 0.85);
+    padding-left:15px;
+    padding-right: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    display:inline-block;
+    width:100%;
+    display:table;
+    position:fixed;
+    z-index:1;
+}
+
+.header .fa {
+    font-size: 30px;
+    color:white;
+    float:right;
+    padding-top:0px;
+}
+
+.logo img {
+ width:120px;
+ height:auto;
+}
+
+
+
+
+/******************/
+/****** Menu ******/
+/******************/
+.main-menu  {
+    vertical-align: middle;
+    display:table-cell;
+}
+
+.main-menu .menu {
+    position:fixed;
+    list-style-type: none;
+    width:250px;
+    background:#3b3b3b;
+    transition:.3s;
+    left:-260px;
+    height:100%;
+    top:77px;
+    padding: 50px 40px 0 20px;
+    box-shadow:5px 0 10px rgba(0,0,0,.3);
+}
+
+.main-menu .menu li a {
+    color:white;
+    font-size: 18px;
+}
+
+.main-menu .menu li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #2a2a2a;
+    font-weight: 500;
+}
+
+.main-menu .menu.show {
+    left:0;
+}
+
+
+
+
+/******************/
+/*** Head image ***/
+/******************/
+.head-image {
+    height:300px;
+    width:100%;
+    position: relative;
+    text-align:center;
+}
+
+.head-image .head-content{
+    position:absolute;
+    color:white;
+    top:62%;
+    width:100%;
+    transform:translateY(-50%);
+    margin-bottom: 10px;
+}
+
+.head-image .head-content h1 {
+    color:white;
+}
+
+.head-image.fp {
+    background:linear-gradient(to bottom, rgba(26, 188, 156, 0.3), rgba(10, 50, 42, 0)), url("img/fp.jpg") bottom center;
+    background-size:cover;
+}
+.head-image.omoss {
+    background:linear-gradient(to bottom, rgba(26, 188, 156, 0.3), rgba(10, 50, 42, 0)), url("img/omoss.jpg") bottom center;
+    background-size:cover;
+}
+.head-image.kaffe {
+    background:linear-gradient(to bottom, rgba(26, 188, 156, 0.3), rgba(10, 50, 42, 0)), url("img/kaffe.jpg") bottom center;
+    background-size:cover;
+}
+.head-image.plugga {
+    background:linear-gradient(to bottom, rgba(26, 188, 156, 0.3), rgba(10, 50, 42, 0)), url("img/plugga.jpg") bottom center;
+    background-size:cover;
+}
+
+
+/******************/
+/**** Study ad ****/
+/******************/
+.study-ad {
+    text-align: center;
+    padding:25px 0 40px 0;
+    margin-bottom: 30px;
+
+    position:relative;
+    background:linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url('img/study-ad.jpg') center;
+    background-size: cover;
+}
+.study-ad h1, .study-ad h4 {
+    color:white;
+}
+.study-ad p {
+    font-size:14px;
+    color:#cfcfcf;
+}
+
+
+
+
+/******************/
+/***** Footer *****/
+/******************/
+footer {
+    background: #1abc9c;
+    width:100%;
+    padding:20px 0;
+    margin-top:60px;
+
+    text-align: center;
+}
+
+footer h1, footer p {
+    color:white;
+}
+
+footer .fa {
+    font-size: 45px;
+    margin-left:20px;
+    color:white;
+
+}
+
+/******************/
+/*** Google map ***/
+/******************/
+#map {
+    height: 200px;
+      margin: 0;
+      padding: 0;
+      width:100%;
+      margin-top:25px;
+}
+
+
+
+
+/*******************/
+/**** Scroll up ****/
+/*******************/
+#scroll-up {
+    position: fixed;
+    right:-55px;
+    bottom:10%;
+    background:rgba(0,0,0,.7);
+    padding:10px 15px;
+    color:white;
+    z-index: 10;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition:.3s;
+    font-size: 20px;
+    box-shadow: 0 4px 5px rgba(0,0,0,.3);
+}
+#scroll-up:hover {
+    background:#18aa8d
+}
+
+#scroll-up.show {
+    right:0;
+}
+
+
+
+
+/********************/
+/**** Responsive ****/
+/********************/
+@media screen and (min-width:768px) {
+    #map {
+        margin-top:0px;
+    }
+    .study-ad {
+        margin-bottom:60px;
+    }
+    .main-menu .menu {
+        display:block;
+    }
+    .header {
+        padding-left:50px;
+        padding-right: 50px;
+        position:absolute;
+    }
+    .header .fa {
+        display:none;
+    }
+
+    .main-menu .menu {
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        float:right;
+        position:static;
+        background:none;
+        width:auto;
+    }
+
+    .main-menu .menu li {
+        float:left;
+        padding-top: 8px;
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    .main-menu .menu li:not(:last-child) a {
+        padding-right: 50px;
+    }
+
+    footer .fa {
+        margin-top:50px;
+        float:right;
+        opacity:.8;
+        transition:.3s;
+    }
+    footer .fa:hover,footer .fa:active {
+        opacity:1;
+    }
+    footer {
+        text-align: left;
+    }
+
+    .head-image {
+        height:500px;
+    }
+    .head-image .head-content {
+        top:55%;
+    }
+    .head-image .head-content h1 {
+        font-size: 38px;
+    }
+
+
+}
