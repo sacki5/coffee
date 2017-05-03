@@ -1,6 +1,5 @@
 /*
 Theme Name: Isac kaffe tema
-
 Author: Isac Ljung
 
 Description: Test eget tema
@@ -9,8 +8,6 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: tema
 */
-@import url('https://fonts.googleapis.com/css?family=Catamaran:500,700,800');
-
 
 /*******************/
 /***** General *****/
@@ -324,7 +321,7 @@ footer .fa {
     .head-image {
         height:500px;
     }
-    
+
     .head-image .head-content {
         top:55%;
     }
