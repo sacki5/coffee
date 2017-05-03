@@ -6,7 +6,6 @@ $(document).ready(function() {
     $('#menu-toggle').click(function() {
         $('.menu').toggleClass("show");
         $(this).toggleClass("fa-bars").toggleClass("fa-times");
-        $('body').toggleClass('freeze');
     });
 
     // If you click on the main content close the menu and change bak to bars

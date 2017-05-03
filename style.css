@@ -11,9 +11,9 @@ div:focus {
     outline:none;
 }
 
-
-
-
+.container {
+    max-width:880px;
+}
 /******************/
 /*** Typography ***/
 /******************/
@@ -56,7 +56,6 @@ h4 {
 }
 
 
-
 /******************/
 /***** Header *****/
 /******************/
@@ -86,10 +85,8 @@ h4 {
 }
 
 
-
-
 /******************/
-/****** Menu ******/
+/***** Menu 1 *****/
 /******************/
 .main-menu  {
     vertical-align: middle;
@@ -113,9 +110,11 @@ h4 {
     color:white;
     font-size: 18px;
 }
+
 .main-menu .menu li a.active {
     color:rgb(26, 188, 156);
 }
+
 .main-menu .menu li {
     margin-bottom: 20px;
     border-bottom: 1px solid #2a2a2a;
@@ -125,7 +124,6 @@ h4 {
 .main-menu .menu.show {
     left:0;
 }
-
 
 
 
@@ -191,8 +189,6 @@ h4 {
 }
 
 
-
-
 /******************/
 /***** Footer *****/
 /******************/
@@ -216,6 +212,7 @@ footer .fa {
 
 }
 
+
 /******************/
 /*** Google map ***/
 /******************/
@@ -226,8 +223,6 @@ footer .fa {
       width:100%;
       margin-top:25px;
 }
-
-
 
 
 /*******************/
@@ -247,14 +242,14 @@ footer .fa {
     font-size: 20px;
     box-shadow: 0 4px 5px rgba(0,0,0,.3);
 }
+
 #scroll-up:active {
     background:#18aa8d
 }
+
 #scroll-up.show {
     right:0;
 }
-
-
 
 
 /********************/
@@ -278,11 +273,11 @@ footer .fa {
     /******************/
     /****** Menu ******/
     /******************/
-    .main-menu .menu li a.active {
+    .header .main-menu .menu li a.active {
         color:#39393a;
     }
 
-    .main-menu .menu {
+    .header .main-menu .menu {
         box-shadow: none;
         margin: 0;
         padding: 0;
@@ -293,14 +288,14 @@ footer .fa {
         display:block;
     }
 
-    .main-menu .menu li {
+    .header .main-menu .menu li {
         float:left;
         padding-top: 8px;
         margin-bottom: 0;
         border-bottom: none;
     }
 
-    .main-menu .menu li:not(:last-child) a {
+    .header .main-menu .menu li:not(:last-child) a {
         padding-right: 50px;
     }
 
