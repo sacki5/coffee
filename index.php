@@ -1,4 +1,4 @@
-<?php include "header.php"; ?>
+<?php include "includes/header.php"; ?>
 <div id="content">
 <div class="head-image fp">
     <div class="head-content">
@@ -59,4 +59,4 @@
 
 
 
-<?php include "footer.php"; ?>
+<?php include "includes/footer.php"; ?>
