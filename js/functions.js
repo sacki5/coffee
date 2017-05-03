@@ -44,7 +44,7 @@ $(document).ready(function() {
 	});
 
     // Remove the .PHP in the url to make the url pretty.
-    $(function(){ 
+    $(function(){
         var url = window.location.pathname,
         urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
 
