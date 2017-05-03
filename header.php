@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv_SE">
+<html lang="se_SV">
 	<head>
 		<meta charset="utf-8">
 		<title>Moment 2</title>
@@ -16,24 +16,24 @@
 			</div>
 		</a>
 	<header  class="header">
-			<a href="index.php">
+			<a href="/coffee/">
 				<div class="logo">
-					<img src="img/logo.png" />
+					<img alt="Logotyp för coffee" src="img/logo.png" />
 				</div>
 			</a>
 			<nav class="main-menu">
 				<ul class="menu">
 					<li>
-						<a href="/coffee2">Hem</a>
+						<a href="/coffee/">Hem</a>
 					</li>
 					<li>
-						<a href="omoss.php">Om oss</a>
+						<a href="omoss">Om oss</a>
 					</li>
 					<li>
-						<a href="kaffe.php">Vårt kaffe</a>
+						<a href="kaffe">Vårt kaffe</a>
 					</li>
 					<li>
-						<a href="plugga.php">Plugga/arbeta på Coffee</a>
+						<a href="plugga">Plugga/arbeta på Coffee</a>
 					</li>
 
 				</ul>

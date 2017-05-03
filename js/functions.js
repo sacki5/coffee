@@ -43,3 +43,18 @@ $(window).scroll(function() {
             $('#scroll-up').removeClass("show");
 		}
 	});
+    console.log(location.pathname);
+
+    $(function(){
+
+        var url = window.location.pathname,
+            urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
+
+            $('.menu li a').each(function(){
+
+                if(urlRegExp.test(this.href.replace(/\/$/,''))){
+                    $(this).addClass('active');
+                }
+            });
+
+    });
