@@ -274,22 +274,25 @@ footer .fa {
 /**** Responsive ****/
 /********************/
 @media screen and (min-width:768px) {
-    #map {
-        margin-top:0px;
-    }
-    .study-ad {
-        margin-bottom:60px;
-    }
-    .main-menu .menu {
-        display:block;
-    }
+
+    /****************/
+    /**** Header ****/
+    /****************/
     .header {
         padding-left:50px;
         padding-right: 50px;
         position:absolute;
     }
+
     .header .fa {
         display:none;
+    }
+
+    /******************/
+    /****** Menu ******/
+    /******************/
+    .main-menu .menu li a.active {
+        color:#39393a;
     }
 
     .main-menu .menu {
@@ -300,6 +303,7 @@ footer .fa {
         position:static;
         background:none;
         width:auto;
+        display:block;
     }
 
     .main-menu .menu li {
@@ -313,32 +317,46 @@ footer .fa {
         padding-right: 50px;
     }
 
+
+    /******************/
+    /*** Head image ***/
+    /******************/
+    .head-image {
+        height:500px;
+    }
+    
+    .head-image .head-content {
+        top:55%;
+    }
+
+    .head-image .head-content h1 {
+        font-size: 38px;
+    }
+
+
+    /****************/
+    /**** Footer ****/
+    /****************/
     footer .fa {
         margin-top:50px;
         float:right;
         opacity:.8;
         transition:.3s;
     }
+
     footer .fa:hover,footer .fa:active {
         opacity:1;
     }
+
     footer {
         text-align: left;
     }
 
-    .head-image {
-        height:500px;
-    }
-    .head-image .head-content {
-        top:55%;
-    }
-    .head-image .head-content h1 {
-        font-size: 38px;
-    }
 
-    .main-menu .menu li a.active {
-        color:#39393a;
-    }
+
+    /***************/
+    /**** Other ****/
+    /***************/
     .btn-custom:hover {
     	background-color: #18aa8d;
         color:white;
@@ -346,10 +364,16 @@ footer .fa {
         top:-1px;
         position: relative;
     }
+
     #scroll-up:hover {
         background:#18aa8d
     }
 
+    #map {
+        margin-top:0px;
+    }
 
-
+    .study-ad {
+        margin-bottom:60px;
+    }
 }
