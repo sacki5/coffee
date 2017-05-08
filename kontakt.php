@@ -19,27 +19,27 @@
             <form data-toggle="validator">
 
                 <div class="form-group has-feedback">
-                    <label for="inputTwitter" class="control-label">Namn</label>
+                    <label class="control-label">Namn</label>
                     <input type="text" class="form-control" required>
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="inputTwitter" class="control-label">Epost</label>
+                    <label class="control-label">Epost</label>
                     <input type="email" class="form-control" required>
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="inputTwitter" class="control-label">Telefonnummer</label>
+                    <label class="control-label">Telefonnummer</label>
                     <input type="tel" pattern="^[- 0-9]{1,}$" class="form-control" data-error='Ange en giltligt telefonnummer'>
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                     <div class="help-block with-errors"></div>
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label for="inputTwitter" class="control-label">Meddelande</label>
+                    <label class="control-label">Meddelande</label>
                     <textarea type="text" class="form-control" rows="4" required></textarea>
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 </div>
