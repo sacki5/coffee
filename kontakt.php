@@ -20,13 +20,13 @@
 
                 <div class="form-group">
                     <label class="control-label">Namn</label>
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control">
 
                 </div>
 
                 <div class="form-group">
                     <label class="control-label">Epost</label>
-                    <input type="email" class="form-control" required>
+                    <input type="text" class="form-control">
                 </div>
 
                 <div class="form-group">
@@ -36,7 +36,7 @@
 
                 <div class="form-group">
                     <label class="control-label">Meddelande</label>
-                    <textarea type="text" class="form-control" rows="4" required></textarea>
+                    <textarea type="text" class="form-control" rows="4"></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-custom">Submit</button>
