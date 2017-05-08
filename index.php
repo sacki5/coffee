@@ -9,8 +9,9 @@
 </div>
 
 <div class="container content">
-    <h1>This is something</h1>
-    <p>Vi på coffee vill ge dig det bästa kaffet som möjligt i en trivsam miljö som uppmanar till umgänge och kreativitet. Vi på coffee vill ge dig det bästa kaffet som möjligt i en trivsam miljö som uppmanar till umgänge och kreativitet.</p>
+    <h1>Coffee</h1>
+    <p>Vi på coffee vill ge dig det bästa kaffet som möjligt i en trivsam miljö som uppmanar till umgänge och kreativitet.
+       Vi vill skapa en möteplats där människor träffas och har det trevligt och ha möjlighet att kunna vara produktiva.</p>
 </div>
 <div class="study-ad">
     <div class="container">
@@ -24,14 +25,15 @@
     </div>
 </div>
 
-<div id="hitta" class="container">
+<div class="container">
+    <div id="hitta" class="anchor"></div>
     <div class="row">
         <div class="col-sm-6">
             <h1>Hitta hit</h1>
             <p>
                 Coffee är placerat centralt i Malmö i närhet till centralstationen och högskolan.
             </p>
-            <a href="https://www.google.se/maps/place/55%C2%B036'31.4%22N+12%C2%B059'45.9%22E/@55.6087077,12.9947467,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d55.6087077!4d12.9960739" class="btn btn-custom">Visa i Google Maps</a>
+            <a  target="_blank" href="https://www.google.se/maps/place/55%C2%B036'31.4%22N+12%C2%B059'45.9%22E/@55.6087077,12.9947467,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d55.6087077!4d12.9960739" class="btn btn-custom">Visa i Google Maps</a>
         </div>
 
         <div class="col-sm-6">
@@ -42,7 +44,7 @@
                 var map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 13,
                     center: myLatLng,
-                    disableDefaultUI: false
+                    disableDefaultUI: true
                 });
 
                 var marker = new google.maps.Marker({

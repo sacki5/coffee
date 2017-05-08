@@ -14,6 +14,31 @@ div:focus {
 .container {
     max-width:880px;
 }
+
+div.anchor {
+    display: block;
+    position: relative;
+    top: -77px;
+    visibility: hidden;
+}
+
+.round {
+    border-radius: 100%;
+}
+
+#employees {
+    text-align: center;
+}
+
+#employees img {
+    width:60%;
+    max-width: 200px;
+}
+
+img {
+    max-width: 100%;
+}
+
 /******************/
 /*** Typography ***/
 /******************/
@@ -51,8 +76,6 @@ h4 {
     background-color: #18aa8d;
     color:white;
     box-shadow:0 4px 6px rgba(0, 0, 0, 0.3);
-    top:-1px;
-    position: relative;
 }
 
 
@@ -83,10 +106,13 @@ h4 {
  width:120px;
  height:auto;
 }
+.logo {
+    float:left;
+}
 
 
 /******************/
-/***** Menu 1 *****/
+/***** Menu *****/
 /******************/
 .main-menu  {
     vertical-align: middle;
@@ -112,6 +138,9 @@ h4 {
 }
 
 .main-menu .menu li a.active {
+    color:rgb(26, 188, 156);
+}
+.main-menu .menu li a:active {
     color:rgb(26, 188, 156);
 }
 
@@ -201,7 +230,7 @@ footer {
     text-align: center;
 }
 
-footer h1, footer p {
+footer h1, footer p, footer a  {
     color:white;
 }
 
@@ -257,47 +286,6 @@ footer .fa {
 /********************/
 @media screen and (min-width:768px) {
 
-    /****************/
-    /**** Header ****/
-    /****************/
-    .header {
-        padding-left:50px;
-        padding-right: 50px;
-        position:absolute;
-    }
-
-    .header .fa {
-        display:none;
-    }
-
-    /******************/
-    /****** Menu ******/
-    /******************/
-    .header .main-menu .menu li a.active {
-        color:#39393a;
-    }
-
-    .header .main-menu .menu {
-        box-shadow: none;
-        margin: 0;
-        padding: 0;
-        float:right;
-        position:static;
-        background:none;
-        width:auto;
-        display:block;
-    }
-
-    .header .main-menu .menu li {
-        float:left;
-        padding-top: 8px;
-        margin-bottom: 0;
-        border-bottom: none;
-    }
-
-    .header .main-menu .menu li:not(:last-child) a {
-        padding-right: 50px;
-    }
 
 
     /******************/
@@ -343,8 +331,6 @@ footer .fa {
     	background-color: #18aa8d;
         color:white;
         box-shadow:0 4px 6px rgba(0, 0, 0, 0.3);
-        top:-1px;
-        position: relative;
     }
 
     #scroll-up:hover {
@@ -358,4 +344,55 @@ footer .fa {
     .study-ad {
         margin-bottom:60px;
     }
+}
+
+@media screen and (min-width:992px) {
+
+    /****************/
+    /**** Header ****/
+    /****************/
+    .header {
+        padding-left:50px;
+        padding-right: 50px;
+        position:absolute;
+    }
+
+    .header .fa {
+        display:none;
+    }
+
+    /******************/
+    /****** Menu ******/
+    /******************/
+    .header .main-menu .menu li a.active {
+        color:#39393a;
+    }
+
+    .header .main-menu .menu {
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        float:right;
+        position:static;
+        background:none;
+        width:auto;
+        display:block;
+    }
+
+    .header .main-menu .menu li {
+        float:left;
+        padding-top: 8px;
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    .header .main-menu .menu li:not(:last-child) a {
+        padding-right: 50px;
+    }
+
+    .main-menu .menu li a:active {
+        color:#39393a;
+    }
+
+
 }
