@@ -11,8 +11,8 @@
                 </p>
             </div>
             <div class="col-sm-6">
-                <a target="_blank" href="http://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a target="_blank" href="http://facebook.se"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a title="Coffe´s Instagram" target="_blank" href="http://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a title="Coffe´s Facebook page" target="_blank" href="http://facebook.se"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="se_SV">
+<html lang="sv-SE">
 	<head>
 		<meta charset="utf-8">
 		<title>Coffee</title>
@@ -15,7 +15,7 @@
 <body id="top">
 	<a href="#top">
 		<div id="scroll-up">
-			<i class="fa fa-arrow-up" aria-hidden="true"></i>
+			<i class="fa fa-arrow-up" aria-label="hidden" aria-label="Scroll to top of page"></i>
 		</div>
 	</a>
 	<header  class="header">
@@ -42,6 +42,6 @@
 					<a href="kontakt">Kontakt</a>
 				</li>
 			</ul>
-			<i id="menu-toggle" class="fa fa-bars" aria-hidden="true"></i>
+			<i id="menu-toggle" class="fa fa-bars" aria-label="open and close the menu."></i>
 		</nav>
 	</header>

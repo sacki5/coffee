@@ -4,7 +4,7 @@
     <div class="head-content">
         <h1>Öppettider</h1>
         <h3>Mån - Fre: 7.00 - 21.00</h3>
-        <a href="#hitta" class="btn btn-custom">Hitta hit</a>
+        <a href="#hitta" aria-label="hidden" class="btn btn-custom">Hitta hit</a>
     </div>
 </div>
 
@@ -21,7 +21,7 @@
     <p>
         Visa upp ditt mecenat/studentkort i kassan
     </p>
-    <a href="plugga.php" class="btn btn-custom">Läs mer</a>
+    <a href="plugga.php" aria-label="Read more about studying and working on coffe" class="btn btn-custom">Läs mer</a>
     </div>
 </div>
 
@@ -37,7 +37,7 @@
         </div>
 
         <div class="col-sm-6">
-            <div id="map"></div>
+            <div id="map" aria-label="Map over Bagers plats 1, 211 18 Malmö"></div>
             <script type="text/javascript">
             function initMap() {
                 var myLatLng = {lat: 55.6087077, lng: 12.9960739};
