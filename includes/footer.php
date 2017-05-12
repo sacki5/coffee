@@ -6,7 +6,8 @@
                 <p>
                     Bagers plats 1, 211 18 Malmö<br />
                     <a href="tel:0701234567">070 123 45 67</a><br />
-                    <a href="mailto:coffee@gmail.com">coffee@gmail.com</a>
+                    <a href="mailto:coffee@gmail.com">coffee@gmail.com</a><br /><br />
+                    <a href="kontakt.php/#form">Kontakt formulär</a>
                 </p>
             </div>
             <div class="col-sm-6">
