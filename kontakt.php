@@ -1,3 +1,4 @@
+<?php $title = "Kontakt"; ?>
 <?php include "includes/header.php"; ?>
 <div id="content">
 <div class="head-image plugga">
@@ -37,14 +38,14 @@
             <form data-toggle="validator">
 
                 <div class="form-group has-feedback">
-                    <label class="control-label">Namn</label>
+                    <label class="control-label">Namn *</label>
                     <input type="text" class="form-control" data-error="Detta fält är obligatoriskt" required>
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                     <div class="help-block with-errors"></div>
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label class="control-label">Epost</label>
+                    <label class="control-label">Epost *</label>
                     <input type="email" class="form-control" data-error="Du måste fylla i en giltlig epost" required>
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                     <div class="help-block with-errors"></div>
@@ -58,13 +59,13 @@
                 </div>
 
                 <div class="form-group has-feedback">
-                    <label class="control-label">Meddelande</label>
+                    <label class="control-label">Meddelande *</label>
                     <textarea type="text" class="form-control" rows="4" data-error="Detta fält är obligatoriskt" required></textarea>
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                     <div class="help-block with-errors"></div>
                 </div>
-
-                <button type="submit" class="btn btn-custom">Submit</button>
+                <label class="help-block">Obligatorisk  = * </label><br />
+                <button type="submit" class="btn btn-custom">Skicka meddelande</button>
 
             </form>
         </div>

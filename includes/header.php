@@ -2,7 +2,7 @@
 <html lang="sv-SE">
 	<head>
 		<meta charset="utf-8">
-		<title>Coffee</title>
+		<title><?= $title ?> - Coffee</title>
 		<link rel="icon" href="img/favicon.png" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="img/favicon120.png" sizes="120x120">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -15,33 +15,35 @@
 <body id="top">
 	<a href="#top">
 		<div id="scroll-up">
-			<i class="fa fa-arrow-up" aria-label="hidden" aria-label="Scroll to top of page"></i>
+			<i class="fa fa-arrow-up" aria-label="hidden"></i>
 		</div>
 	</a>
 	<header  class="header">
-		<a href="/coffee/">
-			<div class="logo">
-				<img alt="Logotyp för coffee" src="img/logo.png" />
-			</div>
-		</a>
-		<nav class="main-menu">
-			<ul class="menu">
-				<li>
-					<a href="/coffee/">Hem</a>
-				</li>
-				<li>
-					<a href="omoss">Om oss</a>
-				</li>
-				<li>
-					<a href="kaffe">Vårt kaffe</a>
-				</li>
-				<li>
-					<a href="plugga">Plugga/arbeta på Coffee</a>
-				</li>
-				<li>
-					<a href="kontakt">Kontakt</a>
-				</li>
-			</ul>
-			<i id="menu-toggle" class="fa fa-bars" aria-label="open and close the menu."></i>
-		</nav>
+		<div class="container">
+			<a href="/coffee/">
+				<div class="logo">
+					<img alt="Logotyp för coffee" src="img/logo.png" />
+				</div>
+			</a>
+			<nav class="main-menu">
+				<ul class="menu">
+					<li>
+						<a href="/coffee/">Hem</a>
+					</li>
+					<li>
+						<a href="omoss">Om oss</a>
+					</li>
+					<li>
+						<a href="kaffe">Vårt kaffe</a>
+					</li>
+					<li>
+						<a href="plugga">Plugga/arbeta på Coffee</a>
+					</li>
+					<li>
+						<a href="kontakt">Kontakt</a>
+					</li>
+				</ul>
+				<i id="menu-toggle" class="fa fa-bars" aria-label="open and close the menu."></i>
+			</nav>
+		</div>
 	</header>

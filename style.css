@@ -11,9 +11,6 @@ div:focus {
     outline:none;
 }
 
-.container {
-    max-width:880px;
-}
 
 div.anchor {
     display: block;
@@ -24,6 +21,10 @@ div.anchor {
 
 .round {
     border-radius: 100%;
+}
+
+.container {
+    max-width: 960px;
 }
 
 #employees {
@@ -57,14 +58,17 @@ h1 {
     color:#39393a;
 }
 
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 h4 {
     font-size: 20px;
     color:#39393a;
 }
 
-a:hover {
-    color:#1abc9c;
-}
+
 
 .btn-custom, .btn-custom:focus, .btn-custom:active {
     padding:10px 16px 8px 16px;
@@ -96,7 +100,7 @@ a:hover {
     width:100%;
     display:table;
     position:fixed;
-    z-index:1;
+    z-index:100;
 }
 
 .header .fa {
@@ -121,6 +125,8 @@ a:hover {
 .main-menu  {
     vertical-align: middle;
     display:table-cell;
+    float:right;
+    margin-top: 5px;
 }
 
 .main-menu .menu {
@@ -281,7 +287,7 @@ footer a:hover {
 }
 
 #scroll-up:active {
-    background:#18aa8d
+    background:#18aa8d;
 }
 
 #scroll-up.show {
@@ -335,8 +341,7 @@ footer a:hover {
     /**** Other ****/
     /***************/
     .btn-custom:hover {
-    	background-color: #18aa8d;
-        color:white;
+    	background-color:#1dcdaa;
         box-shadow:0 4px 6px rgba(0, 0, 0, 0.3);
     }
 
@@ -360,9 +365,9 @@ footer a:hover {
     /**** Header ****/
     /****************/
     .header {
-        padding-left:50px;
-        padding-right: 50px;
         position:absolute;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .header .fa {
@@ -372,6 +377,8 @@ footer a:hover {
     /******************/
     /****** Menu ******/
     /******************/
+
+
     .header .main-menu .menu li a.active {
         color:#39393a;
     }
@@ -380,7 +387,6 @@ footer a:hover {
         box-shadow: none;
         margin: 0;
         padding: 0;
-        float:right;
         position:static;
         background:none;
         width:auto;
