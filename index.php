@@ -31,12 +31,8 @@
     <div class="row">
         <div class="col-sm-6">
             <h1>Hitta hit</h1>
-            <p>
-                Coffee är placerat centralt i Malmö i närhet till centralstationen och högskolan.</p><p>
-
-                
-                Bagers plats 1, 211 18 Malmö
-            </p>
+            <p>Coffee är placerat centralt i Malmö i närhet till centralstationen och högskolan.</p>
+            <p>Bagers plats 1, 211 18 Malmö</p>
             <a  target="_blank" href="https://www.google.se/maps/place/55%C2%B036'31.4%22N+12%C2%B059'45.9%22E/@55.6087077,12.9947467,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d55.6087077!4d12.9960739" class="btn btn-custom">Visa i Google Maps</a>
         </div>
 
