@@ -1,6 +1,6 @@
 <?php $title = "Startsida"; ?>
 <?php include "includes/header.php"; ?>
-<div id="content">
+<main id="content">
 <div class="head-image fp">
     <div class="head-content">
         <h1>Öppettider</h1>
