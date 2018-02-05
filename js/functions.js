@@ -47,6 +47,11 @@ $(document).ready(function() {
         var url = window.location.pathname,
         urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
 
+        if (url == "/") {
+            $('#home').addClass('active');
+            return;
+        } 
+
         $('.menu li a').each(function(){
             if(urlRegExp.test(this.href.replace(/\/$/,''))){
                 $(this).addClass('active');

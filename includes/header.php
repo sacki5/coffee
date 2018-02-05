@@ -20,7 +20,7 @@
 	</a>
 	<header  class="header">
 		<div class="container">
-			<a href="/coffee/">
+			<a href="/">
 				<div class="logo">
 					<img alt="Logotyp för coffee" src="img/logo.png" />
 				</div>
@@ -28,7 +28,7 @@
 			<nav class="main-menu">
 				<ul class="menu">
 					<li>
-						<a href="">Hem</a>
+						<a id="home" href="/">Hem</a>
 					</li>
 					<li>
 						<a href="omoss">Om oss</a>
