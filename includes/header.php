@@ -28,7 +28,7 @@
 			<nav class="main-menu">
 				<ul class="menu">
 					<li>
-						<a href="/coffee/">Hem</a>
+						<a href="/">Hem</a>
 					</li>
 					<li>
 						<a href="omoss">Om oss</a>
